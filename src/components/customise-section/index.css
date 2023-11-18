@@ -1,0 +1,19 @@
+.item_section {
+  width: 100%;
+  background: #e8e9eb;
+}
+.item_section_header {
+  width: 80%;
+  margin: auto;
+}
+.flex_item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 1rem;
+}
+.total_items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

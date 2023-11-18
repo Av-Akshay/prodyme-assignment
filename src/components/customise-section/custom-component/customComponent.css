@@ -1,0 +1,14 @@
+.items_component {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #cccdc6;
+}
+.items {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  font-size: 2rem;
+}
