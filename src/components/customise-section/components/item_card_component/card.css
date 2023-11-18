@@ -1,0 +1,10 @@
+.detail_card {
+  padding: 1.5rem;
+  max-width: 18rem;
+  box-shadow: 0.5rem 0.5rem 2rem #fd5602;
+  border-radius: 2rem;
+  margin: 1.5rem;
+}
+.detail_card p {
+  font-size: 1.2rem;
+}

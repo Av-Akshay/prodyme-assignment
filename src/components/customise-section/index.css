@@ -17,3 +17,8 @@
   flex-direction: column;
   gap: 1.8rem;
 }
+@media screen and (max-width: 520px) {
+  .item_section_header {
+    width: 90%;
+  }
+}

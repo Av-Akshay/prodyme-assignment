@@ -12,6 +12,9 @@
   position: relative;
   font-size: 2rem;
 }
+.item_name {
+  max-width: 22rem;
+}
 .product,
 .product_price {
   color: #fd5602;
@@ -27,14 +30,36 @@
   padding: 1rem 1.5rem;
   background: transparent;
   border-radius: 1.8rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
   font-weight: 600;
-  transform: translate(-50%, -50%);
   transition: all 0.3s linear;
+  font-size: 1.8rem;
 }
 .customize_btn:hover {
   background-color: #fd5602;
   color: white;
+}
+.collapes_component {
+  width: 80%;
+  margin: auto;
+}
+@media screen and (max-width: 520px) {
+  .items {
+    width: 90%;
+    font-size: 1.8rem;
+  }
+  .collapes_component {
+    width: 90%;
+  }
+  .customize_btn {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .items {
+    font-size: 1.4rem;
+  }
+  .customize_btn {
+    padding: 0.6rem 1rem;
+    font-size: 1.4rem;
+  }
 }

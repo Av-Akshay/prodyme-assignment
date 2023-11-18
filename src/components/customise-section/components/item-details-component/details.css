@@ -1,0 +1,25 @@
+.cards {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+}
+.collapse {
+  text-align: center;
+}
+.collapse_btn {
+  border: 0.1rem solid #fd5602;
+  background: transparent;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  transition: all 0.3s linear;
+}
+.collapse_btn:hover {
+  background-color: #fd5602;
+  color: #fff;
+}
