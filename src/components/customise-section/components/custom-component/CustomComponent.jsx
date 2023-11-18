@@ -6,15 +6,15 @@ const CustomComponent = ({ item, holder, price }) => {
     <div className="items_component">
       <div className="items">
         <div className="item_name">
-          <p> {item} </p>
-          <p> {holder} </p>
+          <p className="product"> {item} </p>
+          <p className="product_holder"> {holder} </p>
         </div>
         <div>
-          <button> customize </button>
+          <button className="customize_btn"> customize </button>
         </div>
         <div className="item_price">
-          <p> {price} </p>
-          <p> per sqft</p>
+          <p className="product_price"> {price} </p>
+          <p className="product_holder"> per sqft</p>
         </div>
       </div>
     </div>

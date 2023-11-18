@@ -1,0 +1,40 @@
+.items_component {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #cccdc6;
+}
+.items {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  font-size: 2rem;
+}
+.product,
+.product_price {
+  color: #fd5602;
+  font-weight: bold;
+}
+.product_holder,
+.product_holder {
+  color: #464646;
+  font-weight: bold;
+}
+.customize_btn {
+  border: 0.1rem solid #fd5602;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  border-radius: 1.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: 600;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s linear;
+}
+.customize_btn:hover {
+  background-color: #fd5602;
+  color: white;
+}
