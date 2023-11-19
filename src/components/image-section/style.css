@@ -28,6 +28,9 @@
 span {
   color: #fd5602;
 }
+.first_section_btn {
+  width: 100%;
+}
 .btn {
   z-index: 99;
   padding: 1rem 1.8rem;
@@ -48,4 +51,17 @@ span {
 .btn:hover {
   background-color: #fd5602;
   color: #fff;
+}
+
+@media screen and (max-width: 760px) {
+  .first_sec_heading {
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+  }
+  .btn {
+    width: max-content;
+  }
 }
